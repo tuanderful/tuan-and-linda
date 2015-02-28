@@ -22,12 +22,12 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/grid.css" media="all">
-    <link rel="stylesheet" href="css/magnific-popup.css" media="all">
-    <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
-    <link rel="stylesheet" href="css/animate.min.css" media="all">
-    <link rel="stylesheet" href="css/flaticon.css" media="all">
-    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="styles/grid.css" media="all">
+    <link rel="stylesheet" href="styles/magnific-popup.css" media="all">
+    <link rel="stylesheet" href="styles/font-awesome.min.css" media="all">
+    <link rel="stylesheet" href="styles/animate.min.css" media="all">
+    <link rel="stylesheet" href="styles/flaticon.css" media="all">
+    <link rel="stylesheet" href="styles/style.css" media="all">
     <link id="colors" rel="stylesheet" href="css/colors/default.css" media="all">
 
     <!-- Favicons
@@ -41,8 +41,8 @@
 
     <!-- Load Main jQuery Files
     ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/modernizr.js"></script>
 
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -61,6 +61,27 @@
     <!-- Hero Section -->
     <div id="logo">Nick <span>&amp;</span> Ruby</div>
     <section id="top" class="hero" data-type="parallax">
+        <div class="hero-slideshow">
+            <img src="images/album/slideshow/slideshow1.jpg" />
+            <img src="images/album/slideshow/slideshow2.jpg" />
+            <img src="images/album/slideshow/slideshow3.jpg" />
+        </div>
+        <div class="overlay-dark"></div>
+        <div class="container">
+            <div class="hero-inner">
+                <h1>We’re getting married.</h1>
+                <div class="info">
+                   <div id="countdown"> 462 <span>days</span> 18 <span>hours</span> 46 <span>mins</span> 34 <span>secs</span></div> 
+                    <span class="date">on August 19th 2015, Los Angeles, CA</span>
+                </div>
+                <a href="#couple" class="mouse scrollTo"><i class="fa fa-long-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- #Hero Section Ends -->
+
+    <section id="home-content">
+
         <header id="main-menu">
             <div class="container">
                 <div class="row">
@@ -99,21 +120,6 @@
             </div>
             <!-- close grid container -->
         </header>
-        <div class="overlay-dark"></div>
-        <div class="container">
-            <div class="hero-inner">
-                <h1>We’re getting married.</h1>
-                <div class="info">
-                   <div id="countdown"> 462 <span>days</span> 18 <span>hours</span> 46 <span>mins</span> 34 <span>secs</span></div> 
-                    <span class="date">on August 19th 2015, Los Angeles, CA</span>
-                </div>
-                <a href="#couple" class="mouse scrollTo"><i class="fa fa-long-arrow-down"></i></a>
-            </div>
-        </div>
-    </section>
-    <!-- #Hero Section Ends -->
-
-    <section id="home-content" class="top-menu">
 
         <!-- RSVP Now -->
         <section id="invitation" class="pattern">
@@ -183,7 +189,7 @@
                 </div>
                 <div class="row">
                     <div class="twelve">
-                        <div class="box corner quote wow zoomIn animated">
+                        <div class="box corner quote">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
@@ -208,7 +214,7 @@
                 <div class="row">
                     <div class="timeline-year start"><span>2013</span></div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">March 25</span>
                             <h2>The day we met</h2>
                             <div class="box-content">
@@ -219,7 +225,7 @@
                         </div>
                     </div>
                     <div class="column six heart left movetop">
-                        <div class="box pattern wow fadeInRight animated">
+                        <div class="box pattern">
                             <span class="date">April 5</span>
                             <h2>First dinner together</h2>
                             <div class="box-content">
@@ -230,7 +236,7 @@
                         </div>
                     </div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">April 12</span>
                             <h2>Our first holiday</h2>
                             <div class="box-content">
@@ -247,7 +253,7 @@
                         </div>
                     </div>
                     <div class="column six heart left">
-                        <div class="box pattern wow fadeInRight animated">
+                        <div class="box pattern">
                             <span class="date">May 11</span>
                             <h2>The Proposal</h2>
                             <div class="box-content">
@@ -259,7 +265,7 @@
                         </div>
                     </div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">June 17</span>
                             <h2>Here comes the baby</h2>
                             <div class="box-content">
@@ -273,7 +279,7 @@
                     <div class="clearfix"></div>
                     <div class="timeline-year"><span>2014</span></div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">January 1</span>
                             <h2>New Year's Eve in NY</h2>
                             <div class="box-content">
@@ -284,7 +290,7 @@
                         </div>
                     </div>
                     <div class="column six heart left movetop">
-                        <div class="box pattern wow fadeInRight animated">
+                        <div class="box pattern">
                             <span class="date">January 18</span>
                             <h2>First Holiday</h2>
                             <div class="box-content">
@@ -321,7 +327,7 @@
                 <span class="arrow-down"></span>
                 <div class="row">
                     <div class="column six heart right">
-                        <div class="box center corner wow fadeInLeft animated">
+                        <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
@@ -337,7 +343,7 @@
                         </div>
                     </div>
                     <div class="column six heart left movetop">
-                        <div class="box center corner wow fadeInRight animated">
+                        <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
@@ -353,7 +359,7 @@
                         </div>
                     </div>
                     <div class="column six heart right">
-                        <div class="box center corner wow fadeInLeft animated">
+                        <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
@@ -369,7 +375,7 @@
                         </div>
                     </div>
                     <div class="column six heart left">
-                        <div class="box center corner wow fadeInRight animated">
+                        <div class="box center corner">
                             <div class="corners-topleft"></div>
                             <div class="corners-bottomleft"></div>
                             <div class="corners-topright"></div>
@@ -425,9 +431,9 @@
                     <div class="column six right">
                         <h2 class="vibe">Bridesmaids</h2>
                         <div class="tabs people-image">
-                            <li class="wow flipInY animated"><a href="#person1" class="active"><img src="images/important-people/bridesmade1.jpg" alt="" /></a></li>
-                            <li class="wow flipInY animated"><a href="#person2"><img src="images/important-people/bridesmade2.jpg" alt="" /></a></li>
-                            <li class="wow flipInY animated"><a href="#person3"><img src="images/important-people/bridesmade3.jpg" alt="" /></a></li>
+                            <li><a href="#person1" class="active"><img src="images/important-people/bridesmade1.jpg" alt="" /></a></li>
+                            <li><a href="#person2"><img src="images/important-people/bridesmade2.jpg" alt="" /></a></li>
+                            <li><a href="#person3"><img src="images/important-people/bridesmade3.jpg" alt="" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person1" class="tab-content">
@@ -484,9 +490,9 @@
                     <div class="column six left">
                         <h2 class="vibe">Groomsman</h2>
                         <div class="tabs people-image">
-                            <li class="wow flipInY animated"><a href="#person4" class="active"><img src="images/important-people/groomsman1.jpg" alt="" /></a></li>
-                            <li class="wow flipInY animated"><a href="#person5"><img src="images/important-people/groomsman2.jpg" alt="" /></a></li>
-                            <li class="wow flipInY animated"><a href="#person6"><img src="images/important-people/groomsman3.jpg" alt="" /></a></li>
+                            <li><a href="#person4" class="active"><img src="images/important-people/groomsman1.jpg" alt="" /></a></li>
+                            <li><a href="#person5"><img src="images/important-people/groomsman2.jpg" alt="" /></a></li>
+                            <li><a href="#person6"><img src="images/important-people/groomsman3.jpg" alt="" /></a></li>
                         </div>
                         <div class="tab-content-wrap">
                             <div id="person4" class="tab-content">
@@ -552,7 +558,7 @@
             </header>
             <div class="container">
                 <div class="row">
-                    <ul id="gallery-filter" class="wow fadeInLeft">
+                    <ul id="gallery-filter">
                         <li class="active"><a href="#" data-filter="*">All</a>
                         </li>
                         <li><a href="#" data-filter=".wedding">Wedding Day</a>
@@ -699,28 +705,28 @@
             </header>
             <div class="container">
                 <ul class="small-box corner">
-                    <li class="wow fadeInUp animated" data-wow-delay="0.3s">
+                    <li>
                         <a class="product" href="#"><img src="images/gifts/registry-amazon.png" alt=""></a>
                         <div class="corners-topleft"></div>
                         <div class="corners-bottomleft"></div>
                         <div class="corners-topright"></div>
                         <div class="corners-bottomright"></div>
                     </li>
-                    <li class="wow fadeInUp animated" data-wow-delay="0.6s">
+                    <li>
                         <a class="product" href="#"><img src="images/gifts/registry-crate.png" alt=""></a>
                         <div class="corners-topleft"></div>
                         <div class="corners-bottomleft"></div>
                         <div class="corners-topright"></div>
                         <div class="corners-bottomright"></div>
                     </li>
-                    <li class="wow fadeInUp animated" data-wow-delay="0.9s">
+                    <li>
                         <a class="product" href="#"><img src="images/gifts/registry-macys.png" alt=""></a>
                         <div class="corners-topleft"></div>
                         <div class="corners-bottomleft"></div>
                         <div class="corners-topright"></div>
                         <div class="corners-bottomright"></div>
                     </li>
-                    <li class="wow fadeInUp animated" data-wow-delay="1.2s">
+                    <li>
                         <a class="product" href="#"><img src="images/gifts/registry-tiffany.png" alt=""></a>
                         <div class="corners-topleft"></div>
                         <div class="corners-bottomleft"></div>
@@ -729,7 +735,7 @@
                     </li>
                 </ul>
                 <ul class="small-box corner">
-                    <li class="wow fadeInUp animated" data-wow-delay="0.3s">
+                    <li>
                         <div class="money">
                             <span class="amount">$100</span>
                             <a href="#" class="button donate">DONATE</a>
@@ -739,7 +745,7 @@
                             <div class="corners-bottomright"></div>
                         </div>
                     </li>
-                    <li class="wow fadeInUp animated" data-wow-delay="0.6s">
+                    <li>
                         <div class="money">
                             <span class="amount">$200</span>
                             <a href="#" class="button donate">DONATE</a>
@@ -749,7 +755,7 @@
                             <div class="corners-bottomright"></div>
                         </div>
                     </li>
-                    <li class="wow fadeInUp animated" data-wow-delay="0.9s">
+                    <li>
                         <div class="money">
                             <span class="amount">$400</span>
                             <a href="#" class="button donate">DONATE</a>
@@ -759,7 +765,7 @@
                             <div class="corners-bottomright"></div>
                         </div>
                     </li>
-                    <li class="wow fadeInUp animated" data-wow-delay="1.2s">
+                    <li>
                         <div class="money">
                             <span class="amount">$1000</span>
                             <a href="#" class="button donate">DONATE</a>
@@ -786,7 +792,7 @@
                 <div class="row">
                     <div class="timeline-year start"><span>2014</span></div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">24 July</span>
                             <div class="guest">
                                 <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
@@ -795,7 +801,7 @@
                         </div>
                     </div>
                     <div class="column six heart left movetop">
-                        <div class="box pattern wow fadeInRight animated">
+                        <div class="box pattern">
                             <span class="date">24 July</span>
                             <div class="guest">
                                 <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
@@ -804,7 +810,7 @@
                         </div>
                     </div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">24 July</span>
                             <div class="guest">
                                 <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.Aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat</p>
@@ -813,7 +819,7 @@
                         </div>
                     </div>
                     <div class="column six heart left">
-                        <div class="box pattern wow fadeInRight animated">
+                        <div class="box pattern">
                             <span class="date">24 July</span>
                             <div class="guest">
                                 <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat</p>
@@ -822,7 +828,7 @@
                         </div>
                     </div>
                     <div class="column six heart right">
-                        <div class="box pattern wow fadeInLeft animated">
+                        <div class="box pattern">
                             <span class="date">24 July</span>
                             <div class="guest">
                                 <p>Quisque aliquet erat condimentum sit aptent varius convallis quam a scelerisque nulla accumsan suspendisse scelerisque  aliquet erat aliquet porta erat.</p>
@@ -902,8 +908,8 @@
                                 <input type="text" id="email" name="email">
                             </div>
                             <div class="column six">
-                                <label for="persons">Number of guests</label>
-                                <select name="persons" id="persons">
+                                <label for="subject">Number of guests</label>
+                                <select name="subject" id="subject">
                                     <option value="One" disabled selected="selected"> How many persons?</option>
                                     <option value="One">One</option>
                                     <option value="Two">Two</option>
@@ -943,21 +949,21 @@
     </section>
     <!-- JavaScript Files - These ones are in footer
     ================================================== -->
-    <script src="js/device.min.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/SmoothScroll.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/jquery.isotope.sloppy-masonry.min.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
-    <script src="js/jquery.scrollTo.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.mb.YTPlayer.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/retina.min.js"></script>
-    <script src="js/jquery.soc-share.js"></script>
+    <script src="scripts/device.min.js"></script>
+    <script src="scripts/imagesloaded.pkgd.js"></script>
+    <script src="scripts/SmoothScroll.js"></script>
+    <script src="scripts/isotope.js"></script>
+    <script src="scripts/jquery.isotope.sloppy-masonry.min.js"></script>
+    <script src="scripts/jquery.parallax.min.js"></script>
+    <script src="scripts/jquery.scrollTo.js"></script>
+    <script src="scripts/waypoints.min.js"></script>
+    <script src="scripts/jquery.mb.YTPlayer.js"></script>
+    <script src="scripts/jquery.magnific-popup.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script src="scripts/retina.min.js"></script>
+    <script src="scripts/jquery.soc-share.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
-    <script src="js/custom.js"></script>
+    <script src="scripts/custom.js"></script>
     <script>
         var markers = [
             ['Name of Place, Paris', 48.8666436, 2.3199989, 'hotel','Insert Some Demo Text Here'],
