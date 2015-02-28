@@ -1,0 +1,241 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #8e44ad;
+}
+a {
+    color: #8e44ad;
+}
+a:hover, a:active {
+    color: #8e44ad;
+}
+#page-content blockquote {
+    border-left: 3px solid #8e44ad;
+}
+.bgcolor {
+    background-color: #8e44ad;
+}
+span.fill {
+    background-color: #8e44ad;
+}
+a.button.fill {
+    background: #8e44ad;
+}
+.timeline .column.heart:after {
+    color: #8e44ad;
+}
+.timeline-year span {
+    background-color: #8e44ad;
+}
+.loaderOverlay i {
+    color: #8e44ad;
+}
+#logo {
+    color: #D9C6B1;
+}
+#logo span {
+    color: #8e44ad;
+}
+.hero #main-menu {
+	border-top:1px solid #333;
+}
+#main-menu nav#navigation a:hover, #main-menu nav#navigation a.active {
+    color: #8e44ad;
+}
+#navigation-dotted ul li a:before {
+    background: #8e44ad;
+}
+#navigation-dotted ul li a span {
+    background: #8e44ad;
+}
+#navigation-dotted ul li a span:after {
+    border-color: transparent transparent transparent #8e44ad;
+}
+#invitation a {
+    background: #8e44ad;
+}
+.social ul li a:hover {
+    color: #8e44ad;
+}
+.box a:hover {
+    color: #8e44ad;
+}
+.box .date:before {
+    color: #8e44ad;
+}
+#twitter .follow:hover {
+    color: #8e44ad;
+}
+.small-box .amount {
+    color: #8e44ad;
+}
+.small-box .donate:hover {
+    color: #8e44ad;
+}
+#instagram-section .hash {
+    color: #8e44ad;
+}
+.form input[type="submit"] {
+    color: #8e44ad;
+    border: none;
+}
+.form input[type="submit"].color {
+    background-color: #8e44ad;
+    -webkit-box-shadow: 0px 3px 0px #6F3588;
+    -moz-box-shadow: 0px 3px 0px #6F3588;
+    box-shadow: 0px 3px 0px #6F3588;
+}
+.form input[type="submit"].color:hover {
+    background-color: #8e44ad;
+}
+.form .column:after {
+    color: #8e44ad;
+}
+footer .logo span {
+    color: #8e44ad;
+}
+#back-home {
+    background: #8e44ad;
+}
+.prev:hover:before, .next:hover:after {
+    color: #8e44ad;
+}
+.content p:first-child:first-letter {
+    color: #8e44ad;
+}
+#comments h3.section-title span {
+    color: #8e44ad;
+}
+#back-to-top {
+    background: #8e44ad;
+}
+#menu-toggle {
+    background: #8e44ad;
+}
+#menu-toggle:before {
+    background: #8e44ad;
+}
+.pattern, #wedding-events .timeline .column.heart:after, #guestbook {
+    background-color: #152829;
+}
+.box.pattern {
+    background-color: #152829;
+}
+#gallery-wrapper .block .portfolio-hover, #gallery-wrapper .block .video-hover {
+    background: rgba(142, 68, 173, 0.7);
+}
+.overlay {
+    background: rgba(142, 68, 173, 0.45);
+}
+#guestbook .form input[type="text"], #guestbook .form select, #guestbook .form input[type="number"], #guestbook .form textarea {
+    background: transparent;
+    border: 1px solid #6e5e55;
+}
+/* =========================================================== 
+    5.  Additional Dark Background Colors
+============================================================ */
+
+#main-menu ul ul li {
+    background: rgb(21, 40, 41);
+    background: rgba(21, 40, 41, 0.97);
+}
+#main-menu ul ul:before {
+    border-color: transparent transparent #152829 transparent;
+}
+#main-menu {
+    background: rgb(21, 40, 41);
+    background: rgba(21, 40, 41, 0.97);
+    border-bottom: 1px solid #333;
+}
+#logo {
+    background: rgb(21, 40, 41);
+    background: rgba(21, 40, 41, 0.97);
+}
+#main-menu ul li a {
+    color: #D9C6B1;
+}
+#map-pins li {
+    color: #666;
+}
+body, .section-tagline, #gallery-filter li a {
+    color: #ddd;
+}
+#loveline, #important-people, #twitter {
+    background-color: #152829;
+}
+.box.pattern, .box.corner:before, .small-box li a.product, .small-box .money {
+    border: 1px solid #6e5e55;
+}
+.timeline .column.heart:after {
+    background: #152829;
+}
+.small-box li {
+    background: transparent;
+}
+#main-menu li.submenu:hover:after,#main-menu li:hover > a {
+	color: #152829;
+}
+.info_content p {
+	color: #666;
+}
+.box {
+    background: #152829;
+}
+a.button {
+    background: #8e44ad;
+    -webkit-box-shadow: 0px 3px 0px #6F3588;
+    -moz-box-shadow: 0px 3px 0px #6F3588;
+    box-shadow: 0px 3px 0px #6F3588;
+}
+#gallery-filter li a:hover, #gallery-filter li.active a {
+    background-color: #8e44ad;
+}
+a:hover, a:active {
+    color: #fff;
+}
+.box a:hover {
+    color: #fff;
+}
+.details span, .quote span {
+    color: #D9C6B1;
+}
+#story .quote {
+    background: #8e44ad;
+    color: #fff;
+}
+#story .box.corner:before {
+    border: 1px solid #D9C6B1;
+}
+#story .quote .corners-topright {
+    background: url(../../images/elements/corner-violet.png);
+}
+#story .quote .corners-topleft {
+    background: url(../../images/elements/corner-violet.png);
+}
+#story .quote .corners-bottomright {
+    background: url(../../images/elements/corner-violet2.png);
+}
+#story .quote .corners-bottomleft {
+    background: url(../../images/elements/corner-violet2.png);
+}
+.corners-topright {
+    background: url(../../images/elements/corner-darkTwo.png);
+}
+.corners-topleft {
+    background: url(../../images/elements/corner-darkTwo.png);
+}
+.corners-bottomright {
+    background: url(../../images/elements/corner-darkTwo2.png);
+}
+.corners-bottomleft {
+    background: url(../../images/elements/corner-darkTwo2.png);
+}
+.pattern, #wedding-events .timeline .column.heart:after {
+	background: #152829 url(../../images/bgs/BG-crisp-paper-ruffles.png);
+}
+footer {
+    background: #152829;
+}
+@media (max-width: 600px) {
+    #gallery-filter > li a {
+        border-top: 1px solid #6e5e55;
+    }
+}

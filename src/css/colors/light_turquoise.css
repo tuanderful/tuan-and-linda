@@ -1,0 +1,120 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #00c5ac;
+}
+a {
+    color: #00c5ac;
+}
+a:hover, a:active {
+    color: #00c5ac;
+}
+#page-content blockquote {
+    border-left: 3px solid #00c5ac;
+}
+.bgcolor {
+    background-color: #00c5ac;
+}
+span.fill {
+    background-color: #00c5ac;
+}
+a.button.fill {
+    background: #00c5ac;
+}
+.timeline .column.heart:after {
+    color: #00c5ac;
+}
+.timeline-year span {
+    background-color: #00c5ac;
+}
+.loaderOverlay i {
+    color: #00c5ac;
+}
+#logo {
+    color: #00c5ac;
+}
+#main-menu nav#navigation a:hover, #main-menu nav#navigation a.active {
+    color: #00c5ac;
+}
+#navigation-dotted ul li a:before{
+    background: #00c5ac;
+}
+#navigation-dotted ul li a span {
+    background: #00c5ac;
+}
+#navigation-dotted ul li a span:after {
+    border-color: transparent transparent transparent #00c5ac;
+}
+#main-menu li.submenu:hover:after,#main-menu li:hover > a {
+	color: #00c5ac;
+}
+#invitation a {
+    background: #00c5ac;
+}
+.social ul li a:hover {
+    color: #00c5ac;
+}
+.box a:hover {
+    color: #00c5ac;
+}
+.box .date:before {
+    color: #00c5ac;
+}
+#twitter .follow:hover {
+    color: #00c5ac;
+}
+.small-box .amount {
+    color: #00c5ac;
+}
+.small-box .donate:hover {
+    color: #00c5ac;
+}
+#instagram-section .hash {
+    color: #00c5ac;
+}
+.form input[type="submit"] {
+    color: #00c5ac;
+}
+.form input[type="submit"].color {
+    background-color: #00c5ac;
+}
+.form input[type="submit"].color:hover {
+	background-color: #00c5ac;
+}
+.form .column:after {
+    color: #00c5ac;
+}
+footer .logo span {
+    color: #00c5ac;
+}
+#back-home {
+    background: #00c5ac;
+}
+.prev:hover:before,.next:hover:after {
+    color: #00c5ac;
+}
+.content p:first-child:first-letter {
+    color: #00c5ac;
+}
+#comments h3.section-title span {
+    color: #00c5ac;
+}
+#back-to-top {
+    background: #00c5ac;
+}
+#menu-toggle {
+    background: #00c5ac;
+}
+#menu-toggle:before {
+    background: #00c5ac;
+}
+.pattern, #wedding-events .timeline .column.heart:after {
+    background-color: #f1f5e4;
+}
+.box.pattern {
+    background-color: #f1f5e4;
+}
+#gallery-wrapper .block .portfolio-hover, #gallery-wrapper .block .video-hover {
+	background: rgba(0, 192, 172, 0.7);
+}
+.overlay {
+	background: rgba(230, 211, 101, 0.7);
+}

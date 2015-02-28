@@ -1,0 +1,241 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #ea3b46;
+}
+a {
+    color: #ea3b46;
+}
+a:hover, a:active {
+    color: #ea3b46;
+}
+#page-content blockquote {
+    border-left: 3px solid #ea3b46;
+}
+.bgcolor {
+    background-color: #ea3b46;
+}
+span.fill {
+    background-color: #ea3b46;
+}
+a.button.fill {
+    background: #ea3b46;
+}
+.timeline .column.heart:after {
+    color: #ea3b46;
+}
+.timeline-year span {
+    background-color: #ea3b46;
+}
+.loaderOverlay i {
+    color: #ea3b46;
+}
+#logo {
+    color: #D9C6B1;
+}
+#logo span {
+    color: #ea3b46;
+}
+.hero #main-menu {
+	border-top:1px solid #333;
+}
+#main-menu nav#navigation a:hover, #main-menu nav#navigation a.active {
+    color: #ea3b46;
+}
+#navigation-dotted ul li a:before {
+    background: #ea3b46;
+}
+#navigation-dotted ul li a span {
+    background: #ea3b46;
+}
+#navigation-dotted ul li a span:after {
+    border-color: transparent transparent transparent #ea3b46;
+}
+#invitation a {
+    background: #ea3b46;
+}
+#main-menu li.submenu:hover:after,#main-menu li:hover > a {
+	color: #ea3b46;
+}
+.info_content p {
+	color: #666;
+}
+.social ul li a:hover {
+    color: #ea3b46;
+}
+.box a:hover {
+    color: #ea3b46;
+}
+.box .date:before {
+    color: #ea3b46;
+}
+#twitter .follow:hover {
+    color: #ea3b46;
+}
+.small-box .amount {
+    color: #ea3b46;
+}
+.small-box .donate:hover {
+    color: #ea3b46;
+}
+#instagram-section .hash {
+    color: #ea3b46;
+}
+.form input[type="submit"] {
+    color: #ea3b46;
+    border: none;
+}
+.form input[type="submit"].color {
+    background-color: #ea3b46;
+    -webkit-box-shadow: 0px 3px 0px #af2b34;
+    -moz-box-shadow: 0px 3px 0px #af2b34;
+    box-shadow: 0px 3px 0px #af2b34;
+}
+.form input[type="submit"].color:hover {
+    background-color: #ea3b46;
+}
+.form .column:after {
+    color: #ea3b46;
+}
+footer .logo span {
+    color: #ea3b46;
+}
+#back-home {
+    background: #ea3b46;
+}
+.prev:hover:before, .next:hover:after {
+    color: #ea3b46;
+}
+.content p:first-child:first-letter {
+    color: #ea3b46;
+}
+#comments h3.section-title span {
+    color: #ea3b46;
+}
+#back-to-top {
+    background: #ea3b46;
+}
+#menu-toggle {
+    background: #ea3b46;
+}
+#menu-toggle:before {
+    background: #ea3b46;
+}
+.pattern, #wedding-events .timeline .column.heart:after, #guestbook {
+    background-color: #40312f;
+}
+.box.pattern {
+    background-color: #40312f;
+}
+#gallery-wrapper .block .portfolio-hover, #gallery-wrapper .block .video-hover {
+    background: rgba(234, 59, 70, 0.7);
+}
+.overlay {
+    background: rgba(234, 59, 70, 0.45);
+}
+#guestbook .form input[type="text"], #guestbook .form select, #guestbook .form input[type="number"], #guestbook .form textarea {
+    background: transparent;
+    border: 1px solid #6e5e55;
+}
+/* =========================================================== 
+    5.  Additional Dark Background Colors
+============================================================ */
+
+#main-menu ul ul li {
+    background: rgb(64, 49, 47);
+    background: rgba(64, 49, 47, 0.97);
+}
+#main-menu ul ul:before {
+    border-color: transparent transparent #40312f transparent;
+}
+#main-menu {
+    background: rgb(64, 49, 47);
+    background: rgba(64, 49, 47, 0.97);
+    border-bottom: 1px solid #333;
+}
+#logo {
+    background: rgb(64, 49, 47);
+    background: rgba(64, 49, 47, 0.97);
+}
+#main-menu ul li a {
+    color: #D9C6B1;
+}
+body, .section-tagline, #gallery-filter li a {
+    color: #ddd;
+}
+#loveline, #important-people, #twitter {
+    background-color: #40312f;
+}
+.box.pattern, .box.corner:before, .small-box li a.product, .small-box .money {
+    border: 1px solid #6e5e55;
+}
+.timeline .column.heart:after {
+    background: #40312f;
+}
+.small-box li {
+    background: transparent;
+}
+.box {
+    background: #40312f;
+}
+a.button {
+    background: #ea3b46;
+    -webkit-box-shadow: 0px 3px 0px #af2b34;
+    -moz-box-shadow: 0px 3px 0px #af2b34;
+    box-shadow: 0px 3px 0px #af2b34;
+}
+#gallery-filter li a:hover, #gallery-filter li.active a {
+    background-color: #ea3b46;
+}
+a:hover, a:active {
+    color: #fff;
+}
+.box a:hover {
+    color: #fff;
+}
+.details span, .quote span {
+    color: #D9C6B1;
+}
+#map-pins li {
+    color: #666;
+}
+#story .quote {
+    background: #ea3b46;
+    color: #fff;
+}
+#story .box.corner:before {
+    border: 1px solid #D5C3ad;
+}
+#story .quote .corners-topright {
+    background: url(../../images/elements/corner-red.png);
+}
+#story .quote .corners-topleft {
+    background: url(../../images/elements/corner-red.png);
+}
+#story .quote .corners-bottomright {
+    background: url(../../images/elements/corner-red2.png);
+}
+#story .quote .corners-bottomleft {
+    background: url(../../images/elements/corner-red2.png);
+}
+.corners-topright {
+    background: url(../../images/elements/corner-darkOne.png);
+}
+.corners-topleft {
+    background: url(../../images/elements/corner-darkOne.png);
+}
+.corners-bottomright {
+    background: url(../../images/elements/corner-darkOne2.png);
+}
+.corners-bottomleft {
+    background: url(../../images/elements/corner-darkOne2.png);
+}
+.pattern, #wedding-events .timeline .column.heart:after {
+	background: #40312f url(../../images/bgs/BG-crisp-paper-ruffles.png);
+}
+footer {
+    background: #40312f;
+}
+@media (max-width: 600px) {
+    #gallery-filter > li a {
+        border-top: 1px solid #6e5e55;
+    }
+}
