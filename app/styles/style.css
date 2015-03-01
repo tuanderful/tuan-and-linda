@@ -29,10 +29,10 @@ Version: 1.0
   21. Background Images for Single Post
   22. Single Page
   23. Elements Used in Inside Page
-  24. Responsive Version 
+  24. Responsive Version
 
 */
-/* =========================================================== 
+/* ===========================================================
     1. Document Setup (body, common classes, structure etc)
 ============================================================ */
 /* #General
@@ -50,7 +50,7 @@ body {
     color: #666666;
     -webkit-font-smoothing: antialiased;
     /* Fix for webkit rendering */
-    
+
     -webkit-text-size-adjust: 100%;
 }
 /* Typography
@@ -177,7 +177,16 @@ iframe {
         /* for ie 8 */
     }
 }
-/* =========================================================== 
+small, sub, sup {
+    font-size: .83em;
+}
+sub {
+    vertical-align: sub;
+}
+sup {
+    vertical-align: super;
+}
+/* ===========================================================
     2. Misc and Re-usable Elements
 ============================================================ */
 /* #Repeating Elements
@@ -272,7 +281,7 @@ span.fill {
     height: 100%;
     background: rgba(255, 119, 120, 0.45);
     /* browsers */
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#7c000000', endColorstr='#7c000000');
     /* IE */
 }
@@ -284,7 +293,7 @@ span.fill {
     height: 100%;
     background: rgba(25, 25, 25, 0.16);
     /* browsers */
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#7c000000', endColorstr='#7c000000');
     /* IE */
 }
@@ -622,7 +631,7 @@ a.button i {
     animation: pulsing 1.2s infinite;
     color: #FF8C89;
 }
-/* =========================================================== 
+/* ===========================================================
     3.  Hero Section
 ============================================================ */
 
@@ -825,7 +834,7 @@ a.button i {
         opacity: 0;
     }
 }
-/* =========================================================== 
+/* ===========================================================
     4.  Video Background
 ============================================================ */
 
@@ -976,7 +985,7 @@ a.button i {
 .mb_YTVPMuteUnmute {
     cursor: pointer;
 }
-/* =========================================================== 
+/* ===========================================================
     5.  Navigation
 ============================================================ */
 
@@ -1161,7 +1170,7 @@ a.button i {
 #navigation-dotted ul li a:hover span {
     display: block;
 }
-/* =========================================================== 
+/* ===========================================================
     6.  Invitation RSVP
 ============================================================ */
 
@@ -1192,7 +1201,7 @@ a.button i {
     color: #fff;
     padding: 10px 45px;
 }
-/* =========================================================== 
+/* ===========================================================
     7.  Top Couple Images
 ============================================================ */
 
@@ -1260,7 +1269,7 @@ a.button i {
 #couple .overlay-dark {
     z-index: 2;
 }
-/* =========================================================== 
+/* ===========================================================
     8.  Story Section
 ============================================================ */
 
@@ -1283,7 +1292,7 @@ a.button i {
 .social ul li a:hover {
     color: #FF8C89;
 }
-/* =========================================================== 
+/* ===========================================================
     9.  Loveline and Box Class
 ============================================================ */
 
@@ -1354,8 +1363,8 @@ a.button i {
     max-height: 48px;
     margin: 0 3px 20px 3px;
 }
-/* 
-   Box With Curved Borders. 
+/*
+   Box With Curved Borders.
    To get curved borders, just add corner to box class and in html file copy 4 corner divs.
 */
 
@@ -1392,10 +1401,10 @@ a.button i {
     left: 0px;
     -ms-transform: rotate(270deg);
     /* IE 9 */
-    
+
     -webkit-transform: rotate(270deg);
     /* Chrome, Safari, Opera */
-    
+
     transform: rotate(270deg);
 }
 .corners-bottomright {
@@ -1416,10 +1425,10 @@ a.button i {
     left: -0;
     -ms-transform: rotate(90deg);
     /* IE 9 */
-    
+
     -webkit-transform: rotate(90deg);
     /* Chrome, Safari, Opera */
-    
+
     transform: rotate(90deg);
 }
 /* Boxed quote */
@@ -1438,7 +1447,7 @@ a.button i {
 .box.quote.intimeline {
     margin-top: 80px;
 }
-/* =========================================================== 
+/* ===========================================================
     10.  Parallax Image - just change background image URL
 ============================================================ */
 
@@ -1469,7 +1478,7 @@ a.button i {
     text-align: center;
     font: 34px/56px 'Playfair Display', serif;
 }
-/* =========================================================== 
+/* ===========================================================
     11.  Wedding Events
 ============================================================ */
 
@@ -1514,7 +1523,7 @@ a.button i {
 .details span.waddress, .quote span.waddress {
     font-weight: bold;
 }
-/* =========================================================== 
+/* ===========================================================
     12.  Important People
 ============================================================ */
 
@@ -1548,7 +1557,7 @@ a.button i {
 .people-image li.active a img {
     opacity: 1;
 }
-/* =========================================================== 
+/* ===========================================================
     13. Small Gallery
 ============================================================ */
 
@@ -1683,8 +1692,8 @@ a.button i {
     -o-transition-property: -o-transform, opacity;
     transition-property: transform, opacity;
 }
-/* =========================================================== 
-    14.  Twitter 
+/* ===========================================================
+    14.  Twitter
 ============================================================ */
 
 #twitter h3.section-title:before {
@@ -1713,8 +1722,8 @@ a.button i {
 #twitter .follow:hover {
     color: #FF8C89;
 }
-/* =========================================================== 
-    15.  Gift Registry 
+/* ===========================================================
+    15.  Gift Registry
 ============================================================ */
 
 #gift-registry h3.section-title:before {
@@ -1745,7 +1754,7 @@ a.button i {
 .small-box li a img {
     vertical-align: middle;
 }
-/* 5.1.  Gift Money 
+/* 5.1.  Gift Money
 ============================================================ */
 
 .small-box .money {
@@ -1774,7 +1783,7 @@ a.button i {
 .small-box .donate:active {
     top: 76px;
 }
-/* =========================================================== 
+/* ===========================================================
     16.  Instagram
 ============================================================ */
 
@@ -1807,7 +1816,7 @@ a.button i {
     max-width: 770px;
     font-size: 0px;
 }
-/* =========================================================== 
+/* ===========================================================
     17.  GuestBook
 ============================================================ */
 
@@ -1836,7 +1845,7 @@ a.button i {
 #guestbook .form {
     margin-top: 40px;
 }
-/* =========================================================== 
+/* ===========================================================
     18.  Contact
 ============================================================ */
 
@@ -1960,7 +1969,7 @@ select {
     transition: all 0.2s;
     opacity: 0;
 }
-/* =========================================================== 
+/* ===========================================================
     19.  Map Section
 ============================================================ */
 
@@ -2045,7 +2054,7 @@ select {
 #map .info_content {
     min-height: 100px;
 }
-/* =========================================================== 
+/* ===========================================================
     20.  Footer
 ============================================================ */
 
@@ -2077,7 +2086,7 @@ footer .logo span {
 footer .info {
     text-align: right;
 }
-/* =========================================================== 
+/* ===========================================================
     21.  Background Images for Single Posts
 ============================================================ */
 
@@ -2097,7 +2106,7 @@ footer .info {
 .bg2 {
     background-image: url(../images/hero-baby.jpg);
 }
-/* =========================================================== 
+/* ===========================================================
     22.  Single Page
 ============================================================ */
 
@@ -2395,7 +2404,7 @@ header.fixed {
 span.by {
     font-style: italic;
 }
-/* =========================================================== 
+/* ===========================================================
     23. Elements Used in Inside Pages
 ============================================================ */
 /* TABS */
@@ -2575,7 +2584,7 @@ ul.double-angle li:before {
     color: #d9c6b1;
     font-size: 14px;
 }
-/* =========================================================== 
+/* ===========================================================
     24. Responsive Version
 ============================================================ */
 /* #Will Only Show on Desktops
@@ -2596,7 +2605,7 @@ ul.double-angle li:before {
 
 @media (max-width: 1024px) {
     /* Responsive Menu */
-    
+
     body.open {
         overflow: hidden;
     }
@@ -2640,7 +2649,7 @@ ul.double-angle li:before {
         padding: 0 10px;
     }
     /* SubMenus on Responsive */
-    
+
     #main-menu ul ul {
         display: block!important;
         position: relative;
@@ -2660,7 +2669,7 @@ ul.double-angle li:before {
         display: none;
     }
     /* Hamburger by codrops */
-    
+
     #menu-toggle-wrapper {
         display: block;
         top: 0;
@@ -2758,7 +2767,7 @@ ul.double-angle li:before {
         display: none;
     }
     /* Story */
-    
+
     #story .column {
         margin-bottom: 60px;
         text-align: center;
@@ -2782,7 +2791,7 @@ ul.double-angle li:before {
         padding-bottom: 0;
     }
     /* Timeline */
-    
+
     #wedding-events .timeline {
         padding-top: 40px;
     }
@@ -2824,12 +2833,12 @@ ul.double-angle li:before {
         display: none;
     }
     /* Parallax */
-    
+
     .parallax h2.quote {
         font: 24px/40px 'Playfair Display', serif;
     }
     /* Gallery */
-    
+
     #wedding-gallery .container {
         width: 100%;
     }
@@ -2865,7 +2874,7 @@ ul.double-angle li:before {
         line-height: 18px;
     }
     /* Instagram */
-    
+
     #instagram-section .hash {
         font-size: 16px;
     }
@@ -2873,7 +2882,7 @@ ul.double-angle li:before {
         text-align: center;
     }
     /* Single */
-    
+
     #page-content blockquote {
         font-size: 16px;
         line-height: 24px;
@@ -2923,7 +2932,7 @@ ul.double-angle li:before {
         line-height: 26px;
     }
     /* Baby Template */
-    
+
     .baby#background-image {
         padding: 30px 0;
     }
