@@ -19,16 +19,6 @@
         <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
-        <!-- CSS
-        ================================================== -->
-        <link rel="stylesheet" href="styles/grid.css" media="all">
-        <link rel="stylesheet" href="styles/magnific-popup.css" media="all">
-        <link rel="stylesheet" href="styles/font-awesome.min.css" media="all">
-        <link rel="stylesheet" href="styles/animate.min.css" media="all">
-        <link rel="stylesheet" href="styles/flaticon.css" media="all">
-        <link rel="stylesheet" href="styles/style.css" media="all">
-        <link id="colors" rel="stylesheet" href="styles/colors/default.css" media="all">
-
         <!-- Favicons
         ================================================== -->
         <link rel="shortcut icon" href="images/elements/favicon.ico">
@@ -43,13 +33,15 @@
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/grid.css" media="all">
+        <link rel="stylesheet" href="styles/magnific-popup.css" media="all">
+        <link rel="stylesheet" href="styles/font-awesome.min.css" media="all">
+        <link rel="stylesheet" href="styles/animate.min.css" media="all">
+        <link rel="stylesheet" href="styles/flaticon.css" media="all">
+        <link rel="stylesheet" href="styles/style.css" media="all">
+        <link id="colors" rel="stylesheet" href="styles/colors/default.css" media="all">
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-
-        <!-- Load Main jQuery Files
-        ================================================== -->
-        <script src="scripts/jquery.min.js"></script>
-        <script src="scripts/modernizr.js"></script>
 
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -1016,25 +1008,6 @@
         <!-- JavaScript Files - These ones are in footer
         ================================================== -->
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <!--script src="../bower_components/jquery/dist/jquery.js"></script-->
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <script src="scripts/device.min.js"></script>
-        <script src="scripts/imagesloaded.pkgd.js"></script>
-        <script src="scripts/SmoothScroll.js"></script>
-        <script src="scripts/isotope.js"></script>
-        <script src="scripts/jquery.isotope.sloppy-masonry.min.js"></script>
-        <script src="scripts/jquery.parallax.min.js"></script>
-        <script src="scripts/jquery.scrollTo.js"></script>
-        <script src="scripts/waypoints.min.js"></script>
-        <script src="scripts/jquery.mb.YTPlayer.js"></script>
-        <script src="scripts/jquery.magnific-popup.min.js"></script>
-        <script src="scripts/wow.min.js"></script>
-        <script src="scripts/retina.min.js"></script>
-        <script src="scripts/jquery.soc-share.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
         <script>
             var markers = [
@@ -1058,7 +1031,28 @@
                 {"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2e5d4"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{"featureType":"road","elementType":"all","stylers":[{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]}
             ];
         </script>
-        <script src="scripts/custom.js"></script>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <!--script src="../bower_components/jquery/dist/jquery.js"></script-->
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/modernizr.js"></script>
+        <script src="scripts/device.min.js"></script>
+        <script src="scripts/imagesloaded.pkgd.js"></script>
+        <script src="scripts/SmoothScroll.js"></script>
+        <script src="scripts/isotope.js"></script>
+        <script src="scripts/jquery.isotope.sloppy-masonry.min.js"></script>
+        <script src="scripts/jquery.parallax.min.js"></script>
+        <script src="scripts/jquery.scrollTo.js"></script>
+        <script src="scripts/waypoints.min.js"></script>
+        <script src="scripts/jquery.mb.YTPlayer.js"></script>
+        <script src="scripts/jquery.magnific-popup.min.js"></script>
+        <script src="scripts/wow.min.js"></script>
+        <script src="scripts/retina.min.js"></script>
+        <script src="scripts/jquery.soc-share.js"></script>
+
+        <!-- endbower -->
+        <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -1071,7 +1065,8 @@
         </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
+            <script src="scripts/custom.js"></script>
+            <script src="scripts/main.js"></script>
         <!-- endbuild -->
     </body>
 </html>
