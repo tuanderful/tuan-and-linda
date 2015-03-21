@@ -20,6 +20,7 @@
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
+
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="../styles/grid.css" media="all">
@@ -37,14 +38,6 @@
     <link rel="apple-touch-icon" sizes="144x144" href="../images/elements/apple-touch-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="../images/elements/apple-touch-icon-180x180.png" />
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="../styles/main.css">
-    <!-- endbuild -->
-
     <!-- Load Main jQuery Files
     ================================================== -->
     <script src="../scripts/jquery.min.js"></script>
@@ -58,16 +51,13 @@
     <!--[if IE]>
         <link rel="stylesheet" type="text/css" href="css/ie.css" />
     <![endif]-->
+
 </head>
 
 <body class="page">
 
-    <!--[if lt IE 10]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
     <header class="fixed">
-        <a href="../index.html" id="back-home">back to home</a>
+        <a href="index.html" id="back-home">back to home</a>
         <div id="title">
             <div class="container">
                 <div class="row">
@@ -75,7 +65,7 @@
                         <a href="#" class="prev">Previous Event</a>
                     </div>
                     <div class="column six">
-                        <h1>Wedding Ceremony</h1>
+                        <h1>Ceremony</h1>
                     </div>
                     <div class="column three">
                         <a href="#" class="next">Next Event</a>
@@ -85,8 +75,8 @@
         </div>
     </header>
 
-    <!-- Page Map -->
-    <section id="map">
+    <!-- Hero -->
+    <section class="parallax" data-type="parallax" style="background-image: url('../images/event-koi-palace.jpg'); background-size: 100% auto !important;">
 
     </section>
 
@@ -99,10 +89,11 @@
                         <div class="corners-bottomleft"></div>
                         <div class="corners-topright"></div>
                         <div class="corners-bottomright"></div>
-                        <span class="waddress">Club Insomnia</span>
-                        <span>60 Switch Street, New York NY</span>
-                        <span class="wdate">Thursday, 16 August 2014</span>
-                        <span class="wtime">8:00 PM - 5:00 AM</span>
+                        <span class="waddress">San Francisco City Hall</span>
+                        <span>1 Dr. Carlton B. Goodlett Place</span>
+                        <span>San Francisco, CA 94012</span>
+                        <span class="wdate">Saturday, August 8<sup>th</sup> 2015</span>
+                        <span class="wtime">1:00 PM</span>
                     </div>
                 </div>
             </div>
@@ -111,8 +102,9 @@
             <div class="container smaller">
                 <div class="row">
                     <div class="twelve">
-                        <p class="bigletter">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p class="bigletter">This is where we'll add some text about why we chose city hall.</p>
+                        <p>Perhaps we can add something about where to find parking.</p>
+                        <img src="../images/event-city-hall-front.jpg" style="display: block; margin: 0 auto" />
                         <ul class="checked">
                             <li>This is example of some list item</li>
                             <li>This is example of list item</li>
@@ -121,7 +113,7 @@
                             <li>This is example of list item</li>
                         </ul>
                         <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <a href="#">Download PDF guide.</a>
+                        <img src="../images/event-city-hall-stairs.jpg" style="display: block; margin: 0 auto" />
                     </div>
                 </div>
             </div>
@@ -198,15 +190,31 @@
         </div>
     </footer>
 
-    <!-- JavaScript Files - These ones are in footer
+    <!-- Footer JavaScript Files
     ================================================== -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+    <script>
+        var markers = [
+            ['San Francisco City Hall', 37.779318, -122.41914, 'wedding','1 Dr. Carlton B. Goodlett Place']
+        ];
+
+        var TL = {};
+
+        TL.mapOptions = {
+            mapTypeId: google.maps.MapTypeId.HYBRID,
+            zoom: 4,
+            zoomControl: true,
+            zoomControlOptions: {
+              style: google.maps.ZoomControlStyle.SMALL
+            }
+        };
+    </script>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <!--script src="../bower_components/jquery/dist/jquery.js"></script-->
-    <!-- endbower -->
-    <!-- endbuild -->
-
+    <script src="../scripts/jquery.min.js"></script>
+    <script src="../scripts/modernizr.js"></script>
     <script src="../scripts/device.min.js"></script>
     <script src="../scripts/imagesloaded.pkgd.js"></script>
     <script src="../scripts/SmoothScroll.js"></script>
@@ -220,29 +228,9 @@
     <script src="../scripts/wow.min.js"></script>
     <script src="../scripts/retina.min.js"></script>
     <script src="../scripts/jquery.soc-share.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
-    <script>
-        var markers = [
-            ['San Francisco City Hall', 37.779318, -122.41914, 'wedding','1 Dr. Carlton B. Goodlett Place'],
-        ];
 
-        var TL = {};
-        TL.mapOptions = {
-            zoom: 20,
-            center: new google.maps.LatLng(37.779318, -122.41914), // city hall
-            zoomControl: true,
-            zoomControlOptions: {
-                style: google.maps.ZoomControlStyle.SMALL
-            },
-            mapTypeId: google.maps.MapTypeId.HYBRID
-        };
-    </script>
-    <script src="../scripts/custom.js"></script>
-    <script>
-        var markers = [
-            ['San Francisco City Hall', 37.779318, -122.41914, 'wedding','1 Dr. Carlton B. Goodlett Place']
-        ];
-    </script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -255,7 +243,8 @@
     </script>
 
     <!-- build:js({app,.tmp}) scripts/main.js -->
-    <script src="../scripts/main.js"></script>
+        <script src="../scripts/custom.js"></script>
+        <script src="../scripts/main.js"></script>
     <!-- endbuild -->
 </body>
 

@@ -154,7 +154,9 @@ if (!Array.prototype.indexOf) {
             $('.hero,#background-image,.parallax').addClass('not-mobile');
 
             $('section[data-type="parallax"]').each(function() {
-                $(this).parallax("50%", 0.5);
+                var xpos = $(this).data('parallax-xpos') || '50%';
+
+                //$(this).parallax(xpos, 0.5);
             });
 
             /* fixed background on mobile devices */
@@ -353,8 +355,6 @@ if (!Array.prototype.indexOf) {
 
             var mapOptions = {
                 scrollwheel: false,
-                //zoom: 16,
-                //    center: new google.maps.LatLng(44.7679455, 17.1909169), // New York
                 styles: [{
                     "featureType": "road",
                     "elementType": "labels",
@@ -628,7 +628,7 @@ if (!Array.prototype.indexOf) {
         /* Simple Countdown Timer - change belows date to specific one you want.
         ==================================================================================== */
         if($("#countdown").length) {
-            CountDownTimer('12/08/2015 12:00 AM', 'countdown');
+            CountDownTimer('08/08/2015 01:00 PM', 'countdown');
         }
         function CountDownTimer(dt, id) {
             var end = new Date(dt);
@@ -645,7 +645,7 @@ if (!Array.prototype.indexOf) {
                 if (distance < 0) {
 
                     clearInterval(timer);
-                    document.getElementById(id).innerHTML = 'EVENT POCEO!';
+                    document.getElementById(id).innerHTML = '';
 
                     return;
                 }

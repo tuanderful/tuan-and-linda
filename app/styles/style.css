@@ -216,7 +216,7 @@ section section {
     background-repeat: repeat;
 }
 .no-video {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/cover.jpg);
 }
 .nobottom-padding {
     padding-bottom: 0;
@@ -652,7 +652,7 @@ a.button i {
     vertical-align: bottom;
 }
 .hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/cover.jpg);
     position: relative;
     overflow: hidden;
     width: 100%;
