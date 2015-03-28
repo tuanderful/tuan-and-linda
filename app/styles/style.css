@@ -772,7 +772,7 @@ a.button i {
 .hero .hero-slideshow .slide {
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: cover;
+    background-size: 100%;
     position: absolute;
     top: 0px;
     left: 0px;

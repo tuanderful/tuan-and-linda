@@ -18,8 +18,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -30,7 +30,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -82,7 +82,7 @@ html {
 }
 
 img {
-  -ms-interpolation-mode: bicubic; 
+  -ms-interpolation-mode: bicubic;
   height: auto;
   margin: 0;
   max-width: 100%;
@@ -108,7 +108,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 input[type="radio"],
-input[type="checkbox"] { 
+input[type="checkbox"] {
   font-family: 'Quicksand', Arial, sans-serif;
   font-size: 13px;
   cursor:pointer;
@@ -118,7 +118,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-  border-color:#888; 
+  border-color:#888;
   outline:0
 }
 
@@ -127,14 +127,14 @@ textarea{
   overflow:auto
 }
 
-select:focus{ 
-  outline:thin dotted #333; 
-  outline:5px auto -webkit-focus-ring-color; 
+select:focus{
+  outline:thin dotted #333;
+  outline:5px auto -webkit-focus-ring-color;
   outline-offset:-2px
 }
 
 select{
-  width: 100%; 
+  width: 100%;
   height:32px
 }
 
@@ -164,7 +164,7 @@ legend { border: 0; *margin-left: -7px; padding: 0; }
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 button, input { line-height: normal; *overflow: visible; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
-button, input[type="button"], input[type="reset"], input[type="submit"] { 
+button, input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: none;
   cursor: pointer;
   -o-transition:.4s;
@@ -208,7 +208,4 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   .column.ten    { width: 83.33333%;}
   .column.eleven { width: 91.66667%;}
   .column.twelve { width: 100%;}
-
 }
-
-
