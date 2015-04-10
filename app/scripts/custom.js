@@ -552,7 +552,7 @@ if (!Array.prototype.indexOf) {
 
         /* Instagram Script - change Tag to yours and update ClientId
         ==================================================================================== */
-        var instagramTag = 'wedding'; // Add Instagram Tag here
+        var instagramTag = 'TuanAndLinda'; // Add Instagram Tag here
         var instagramClientId = '630b5c9d2cab44e08fb9d014cf00b2b6'; // Add ClientId here
         var $instagramSection = $('#instagram-section');
         var max_tag_id = false;
