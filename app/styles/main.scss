@@ -32,6 +32,16 @@ body {
 
 
 @media screen and (max-width: 959px) {
+
+    #loveline {
+        .box.pattern {
+            padding: 15px;
+            h2 {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
     #couple .images .column {
         .fname {
             top: 260px;
@@ -40,4 +50,21 @@ body {
             top: 320px;
         }
     }
+}
+
+
+#important-people {
+    .srsly {
+        display: none;
+    }
+
+    .active {
+        img {
+            display: none;
+        }
+        .srsly {
+            display: block;
+        }
+    }
+
 }
